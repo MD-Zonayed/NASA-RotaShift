@@ -1,0 +1,16 @@
+# etc_mm = seasonal crop evapotranspiration. net_irrigation_ref_mm = published CROPWAT reference (other regions, for comparison only; the model computes irrigation need for the chosen site).
+# etc_status 'BRRI-AR-2017-18' = BRRI Annual Report 2017-18, Irrigation & Water Management, Tables 5-6, pp. 96-97 (CROPWAT, 7 NW/SW locations, normal weather; Boro/Aus net irrigation includes land preparation); 'FAO56-planning-estimate' = FAO-56 Kc x assumed ETo, with low/high range (see data/fao56_planning_estimates.csv); not a local measurement. drought_tol/income are relative 0-1 ordinal scores (see docs/DATA_DICTIONARY.md).
+crop,slot,tmin,tmax,etc_mm,ph_min,ph_max,n_fixer,drought_tol,income,root,net_irrigation_ref_mm,etc_status,etc_low_mm,etc_high_mm
+Boro rice,rabi,18,30,477,5.5,7.0,0,0.2,0.8,shallow,897.0,BRRI-AR-2017-18,,
+Wheat,rabi,12,25,255,6.0,7.5,0,0.5,0.6,medium,194.0,BRRI-AR-2017-18,,
+Mustard,rabi,15,25,169,6.0,7.5,0,0.7,0.7,medium,119.0,BRRI-AR-2017-18,,
+Lentil,rabi,15,25,202,6.0,7.5,1,0.8,0.7,medium,105.0,BRRI-AR-2017-18,,
+Potato,rabi,15,25,202,5.5,6.5,0,0.3,0.8,shallow,163.0,BRRI-AR-2017-18,,
+Tomato,rabi,18,29,377,6.0,7.0,0,0.3,0.9,medium,,FAO56-planning-estimate,342.0,411.0
+Maize,kharif1,22,32,415,5.8,7.5,0,0.4,0.7,deep,343.0,BRRI-AR-2017-18,,
+Mungbean,kharif1,25,35,204,6.2,7.2,1,0.7,0.6,medium,,FAO56-planning-estimate,189.0,219.0
+Jute,kharif1,24,35,519,6.0,7.5,0,0.4,0.5,medium,67.0,BRRI-AR-2017-18,,
+Aus rice,kharif1,22,32,499,5.5,7.0,0,0.3,0.6,shallow,439.0,BRRI-AR-2017-18,,
+Aman rice,kharif2,22,32,446,5.5,7.0,0,0.3,0.7,shallow,0.0,BRRI-AR-2017-18,,
+Soybean,kharif2,20,32,312,6.0,7.0,1,0.5,0.6,medium,,FAO56-planning-estimate,286.0,339.0
+Sesame,kharif2,25,35,286,5.5,8.0,0,0.8,0.6,medium,,FAO56-planning-estimate,262.0,310.0

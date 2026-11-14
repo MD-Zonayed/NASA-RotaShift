@@ -1,0 +1,4 @@
+# APPROXIMATE locality coordinates. Replace with GPS of the actual plot centre before extracting satellite data.
+site_id,site,lat,lon,note
+uttara_sector_17,"Uttara Sector 17, Dhaka (approx.)",23.84764,90.37185,Farmbot testing; tomato ripeness demo; urban setting
+araihazar,"Araihazar, Narayanganj (approx.)",23.79267,90.65315,Field testing of rotation recommendations

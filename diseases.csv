@@ -1,0 +1,16 @@
+# Weather-favourability SCREENING rules (not diagnosis). verified=0 -> hidden by default; set 1 only after a pathologist/DAE reference confirms the thresholds.
+crop,disease,tmin,tmax,rh_min,action,verified
+Boro rice,Blast,20,30,80,Scout weekly; resistant variety; confirm with camera,0
+Aman rice,Bacterial leaf blight,25,34,75,Scout after storms; balanced N,0
+Aus rice,Sheath blight,28,32,80,Scout; avoid dense planting,0
+Wheat,Wheat blast,25,30,80,Scout heads; seed treatment; extension advice,0
+Mustard,Alternaria blight,15,25,75,Scout leaves; clean seed,0
+Lentil,Stemphylium blight,15,25,75,Scout; wider spacing,0
+Potato,Late blight,10,24,85,Scout daily in humid spells; extension advice,0
+Tomato,Early blight,24,29,75,Scout lower leaves; rotate away from Solanaceae,0
+Tomato,Late blight,10,25,85,Scout; avoid leaf wetness,0
+Maize,Gray leaf spot,22,30,80,Scout; residue management,0
+Mungbean,Cercospora leaf spot,25,30,80,Scout; clean seed,0
+Jute,Stem rot,28,35,85,Scout; well-drained plots,0
+Soybean,Rust,15,28,85,Scout; early sowing,0
+Sesame,Cercospora leaf spot,25,32,80,Scout; clean seed,0
