@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use RotaShift, please cite the project team and data sources listed in docs/CREDITS_AND_DATA_SOURCES.md."
+title: "RotaShift: Climate-Aware Crop Rotation Planning for Bangladesh"
+type: software
+authors:
+  - family-names: "Zonayed"
+    given-names: "MD"
+    affiliation: "Soil-to-Sky Robo Team"
+version: "0.1.0"
