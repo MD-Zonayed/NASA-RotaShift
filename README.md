@@ -14,6 +14,7 @@
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VWTlKhXIzMg">▶ Watch the team's prior Farmbot demonstration</a> ·
   <a href="RotaShift_7_Slide_Demo.pptx">📊 View the seven-slide RotaShift demo</a> ·
+  <a href="RotaShift_7_Slide_Demo.pdf">📊 View the seven-slide RotaShift demo</a> ·
   <a href="DATA_AUDIT.md">🧾 Read the data audit</a>
 </p>
 
