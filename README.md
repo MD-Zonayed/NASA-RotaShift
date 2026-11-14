@@ -19,6 +19,20 @@
 
 ---
 
+### Soil-to-sky crop-rotation decision support for farms in a changing climate
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-hackathon%20prototype-orange)
+
+**🛰️ NASA Space Apps Challenge 2026 · Challenge: _Field Shift: Adapting Farms with NASA Data_**
+**👥 Team: Soil-to-Sky Robo Team · 📍 Local Event: Dhaka, Bangladesh**
+
+</div>
+
+---
+
 ## 🚜 Project overview
 
 Farmers make crop-rotation decisions under changing temperature, rainfall, water availability, and soil conditions. RotaShift translates selected climate indicators and local agronomic inputs into an explainable comparison of possible crop sequences for Bangladesh's three major growing windows:
