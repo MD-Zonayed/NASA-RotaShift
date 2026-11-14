@@ -1,3 +1,3 @@
-# Raw Earth Engine exports
+# Synthetic demo data only
 
-These four CSVs were supplied in the team's starter archive and were generated from Google Earth Engine for approximate locality-reference points in Uttara and Araihazar. The export metadata says `qa_filter_applied_before_export=NONE_RAW_QA_RETAINED`; QA values must be interpreted downstream. The reference coordinates are not surveyed plot centres. See `docs/DATA_AUDIT.md` and `docs/DATA_STATUS.md`.
+Every file in this folder is generated/simulated/proxy data for software pipeline testing. None is a real Farmbot sensor export, laboratory calibration sample, SMAP observation, or MODIS observation. The app's default data sources are `data/smap_all.csv` and `data/ndvi_all.csv`, not these files. Keep this folder clearly labelled if publishing it.

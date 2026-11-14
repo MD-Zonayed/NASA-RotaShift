@@ -1,0 +1,26 @@
+{
+  "uttara_sector_17": {
+    "site_id": "uttara_sector_17",
+    "sensor_id": "SIM-CAP-UTTARA_SECTOR_17",
+    "slope_vwc_pct_per_adc": -0.022225051394258687,
+    "intercept_vwc_pct": 80.00407590235667,
+    "n_synthetic_samples": 24,
+    "rmse_pct_simulated": 0.02410690597844266,
+    "bias_pct_simulated": 3.7007434154171886e-16,
+    "r_squared_simulated": 0.9999950495453148,
+    "status": "SYNTHETIC_DEMO_FIT_NOT_TRANSFERABLE_TO_REAL_HARDWARE",
+    "warning": "Coefficients were fitted to generated rows, not your physical sensor. Do not load this JSON as a real calibration."
+  },
+  "araihazar": {
+    "site_id": "araihazar",
+    "sensor_id": "SIM-CAP-ARAIHAZAR",
+    "slope_vwc_pct_per_adc": -0.02222523722292193,
+    "intercept_vwc_pct": 81.11292875727197,
+    "n_synthetic_samples": 24,
+    "rmse_pct_simulated": 0.021151769285470252,
+    "bias_pct_simulated": -2.2426505097428162e-14,
+    "r_squared_simulated": 0.9999961888543818,
+    "status": "SYNTHETIC_DEMO_FIT_NOT_TRANSFERABLE_TO_REAL_HARDWARE",
+    "warning": "Coefficients were fitted to generated rows, not your physical sensor. Do not load this JSON as a real calibration."
+  }
+}
